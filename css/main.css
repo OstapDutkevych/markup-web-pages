@@ -1,0 +1,143 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	
+}
+.wrapper {
+	width: 940px;
+}
+
+header {
+	background: url(../img/first-bg.jpg) no-repeat center top / cover;
+	
+	height: 100vh;
+}
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+.logo_and_menu{
+	padding-top: 45px;
+	display: flex;
+	justify-content: space-between;
+}
+.menu {
+	margin-top: 5px;
+}
+.menu li{
+	display: inline-block;
+	margin-right: 41px;
+}
+.menu a:hover{
+	color: rgb(116, 116, 116);
+}
+.menu a {
+	text-decoration: none; /*убираем подчеркивание текста ссылок*/
+	color: #ffffff;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+}
+.title_first{
+font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+}
+.titles h1 {
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 15px;
+}
+
+.button {
+	background: #fed136;
+	color: #484543;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+.button:hover {
+	background-color: rgb(216, 101, 126);
+	color:rgb(247, 247, 11);
+}
+.title_services{
+	margin-top: 115px;
+}
+.title_services h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+.title_services p{
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+	font-family: Arial, sans-serif;
+}
+.services_item {
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.services_item img{
+		display: block;
+		margin: 0 auto; 
+}
+.services_item h3 {
+	font-size: 18px;
+	margin:25px 0px 25px 0px;
+}
+.services_item p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+#services {
+	padding-bottom: 120px;
+}
+
+
+#portfolio {
+	background-color: #eeeeee;
+	padding-bottom: 120px;
+}
+.title_portfolio {
+	padding: 120px 0px 65px 0px;
+}
+#portfolio h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+#portfolio p {
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+	font-family: Arial, sans-serif;
+}
+.work {
+	display: flex;
+	justify-content: space-around;
+}
+.work img{
+	margin: 10px 20px 10px 20px;
+}
