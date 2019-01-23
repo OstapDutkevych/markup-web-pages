@@ -147,6 +147,7 @@ font-size: 40px;
 	text-transform: uppercase;
 	text-align: center;
 	font-family: Arial, sans-serif;
+	margin-top: 70px;
 }
 .article_about p {
 	color: #777777;
@@ -154,4 +155,50 @@ font-size: 40px;
 	font-size: 16px;
 	margin-top: 5px;
 	font-family: Arial, sans-serif;
+}
+.about_item {
+	display: flex;
+	flex-direction: column;
+	margin-left: 120px;
+	margin-top: 50px;
+}
+.descr_width {
+	width:250px;
+}
+.flx {
+	display: flex;
+	flex-grow:1;
+	width: 765px;
+	margin:40px 0px 0px 0px;
+}
+.item2 {
+ flex-direction: row-reverse;
+}
+.item4 {
+	flex-direction: row-reverse;
+}
+
+.font_sub {
+	color: #777777;
+	text-align: left;
+	font-size: 16px;
+	margin-top: 5px;
+	font-family: Arial, sans-serif;
+}
+.description_item1 p{
+	color: #777777;
+	text-align: right;
+	font-size: 16px;
+	margin-top: 5px;
+	font-family: Arial, sans-serif;
+}
+.description_item3 p{
+	color: #777777;
+	text-align: right;
+	font-size: 16px;
+	margin-top: 5px;
+	font-family: Arial, sans-serif;
+}
+img {
+	margin:0px 40px 0px 40px;
 }
