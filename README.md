@@ -7,4 +7,4 @@
 
 
 ### Section "About us"
-![Dream Music!](sections_about.jpg "Music")
+![Dream Music!](section_about.jpg "Music")
